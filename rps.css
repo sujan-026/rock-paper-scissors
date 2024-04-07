@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f3e9;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button.js-rock-btn {
+    background-color: #2ecc71;
+}
+
+button.js-paper-btn {
+    background-color: #e74c3c;
+}
+
+button.js-scissors-btn {
+    background-color: #f39c12;
+}
+
+.js-score-para {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.js-your-moves,
+.js-computer-moves {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.js-reset-btn {
+    background-color: #e74c3c;
+}
+
+.js-reset-btn:hover {
+    background-color: #c0392b;
+}
